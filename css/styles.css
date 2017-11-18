@@ -1,0 +1,70 @@
+body{
+	background-color: beige;
+}
+
+header>.content{
+	border: 2px white;
+}
+h1, h2{
+	font-family: 'Italiana', serif;
+	color: white;
+}
+
+img{
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+.photo{
+	position: relative;
+}
+#name{
+	position: absolute;
+	color:maroon;
+	font-weight: bold;
+	font-size: 9em;
+	top:0;
+	right:0;
+}
+#tagline{
+	position: absolute;
+	color:green;
+	font-weight: bold;
+	font-size: 3em;
+	top: 0;
+	right:0;
+}
+#topMenu {
+	text-align: center;
+}
+
+.guide{
+	list-style-type: none;
+     display: inline-block;
+
+}
+.guide:hover{
+    background-color: tomato;
+}
+a{
+	color:green;
+	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+}
+.sectionTitle{
+	color:maroon;
+	font-family: 'Italiana', serif;
+	font-size: 2em;
+
+}
+#today, #menu, #pizza, #subscribe, #visit, #addy, .hours{
+	text-align: center;
+	list-style-type:none;
+}
+.hours{
+	display: inline;
+}
+.pizzaname{
+	color: green;
+	font-size: 1.5em;
+}

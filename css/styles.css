@@ -1,10 +1,6 @@
 body{
 	background-color: beige;
 }
-
-header>.content{
-	border: 2px white;
-}
 h1, h2{
 	font-family: 'Italiana', serif;
 	color: white;
@@ -41,30 +37,58 @@ img{
 .guide{
 	list-style-type: none;
      display: inline-block;
-
 }
 .guide:hover{
     background-color: tomato;
 }
 a{
 	color:green;
-	font-size: 2em;
+	font-size: 1.75em;
 	font-family: 'Roboto', sans-serif;
 }
 .sectionTitle{
 	color:maroon;
 	font-family: 'Italiana', serif;
-	font-size: 2em;
-
+	font-size: 2.5em;
 }
-#today, #menu, #pizza, #subscribe, #visit, #addy, .hours{
+#today, #menu, #pizza, #subscribe, #addy{
 	text-align: center;
 	list-style-type:none;
 }
-.hours{
-	display: inline;
+#hours{
+	
+	text-align: center;
+	color:green;
+	list-style-type: none;
+	font-size: 1.25em;
 }
-.pizzaname{
+#special, .pizzaName{
 	color: green;
+	font-size: 2em;
+}
+.sectionTitle{
+	font-size: 3em;
+}
+.description{
+	color:maroon;
+	font-family: "Roboto", sharif;
 	font-size: 1.5em;
+}
+#deal{
+	color:green;
+	font-size: 2em;
+
+}
+#street{
+	font-family: "Roboto", sharif;
+	color:maroon;
+}
+#map{
+	color: maroon;
+	font-size: 0.75em;
+}
+#credit, #copyright{
+	text-align: right;
+	color:maroon;
+	font-family: 'Roboto', serif;
 }
